@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "fontStarWars";
+    src: url('/src/assets/fonts/starjedi-special-edition-font/StarjediSpecialEdition-9Bqy.ttf');
+}
+
+.header {
+    background-color: black;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+
+}
+
+.headerTitle {
+    color: #ffe81f;
+    font-family: "fontStarWars", Arial, Helvetica, sans-serif;
+}
