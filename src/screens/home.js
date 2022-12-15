@@ -9,7 +9,7 @@ const Home = () => {
         <div>
             <Header />
             <div>
-                <img src={background_home} alt='etoile'></img>
+                <img src={background_home} alt='etoile' className='fond'></img>
             </div>
         </div>
         
