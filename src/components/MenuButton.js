@@ -19,14 +19,14 @@ const MenuButton = () => {
           }
 
     return (
-        <div>
+        <div className='grosSandwich'>
             <nav>
                 <div id="mySidenav" className="sidenav">
-                    <Link id="closeBtn" className="close" onClick={() => closeNav()}>X</Link>
+                    <Link id="closeBtn" className="close" onClick={() => closeNav()}>x</Link>
                     <ul>
-                        <li><Link to ='/test'>A propos</Link></li>
-                        <li><a href="https://developer.mozilla.org/fr/">Nos services</a></li>
-                        <li><Link href="https://developer.mozilla.org/fr/">Témoignages</Link></li>
+                        <li><Link to ='/test'>Tournaments</Link></li>
+                        <li><a href="https://developer.mozilla.org/fr/">Schedule</a></li>
+                        <li><Link href="https://developer.mozilla.org/fr/">Characters</Link></li>
                         <li><Link href="https://developer.mozilla.org/fr/">Contact</Link></li>
                     </ul>
                 </div>

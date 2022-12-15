@@ -1,19 +1,27 @@
 @font-face {
     font-family: "fontStarWars";
-    src: url('/src/assets/fonts/starjedi-special-edition-font/StarjediSpecialEdition-9Bqy.ttf');
+    src: url('/src/assets/fonts/STJEDISE.TTF');
 }
 
 .header {
-    background-color: black;
     min-height: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-size: calc(10px + 2vmin);
 }
 
+.headerButton {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
 .headerTitle {
+    display: flex;
+    justify-content: center;
+    padding-left: 700px;
     color: #ffe81f;
-    font-family: "fontStarWars", Arial, Helvetica, sans-serif;
+    font-family: "fontStarWars";
 }
