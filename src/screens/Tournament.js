@@ -3,13 +3,12 @@ import './Tournament.css';
 import BodyTournament from '../components/BodyTournament';
 
 
-const Tournament = () => {
+const Tournament = ({playerchoice}) => {
+    // console.log(playerchoice)
     return (
         <>
         <Header/>,
-        <BodyTournament
-        // playerchoice={props.button}
-        />,
+        <BodyTournament playerchoice={playerchoice} />,
         {/* <Footer/> */}
         </>
     )}

@@ -1,13 +1,14 @@
-
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Tournament from './screens/Tournament';
-
 function App() {
-  return (
+  const idChoise = 2
+    return (
     <div className="App">
-     <Tournament
-    //  playerchoice = {button}
-    />
+      <Tournament
+       playerchoice={idChoise}
+      />
+
     </div>
   );
 }

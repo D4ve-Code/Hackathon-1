@@ -1,7 +1,8 @@
 import './BodyTournament.css';
 import Participants from './Participants';
 import Player from './Player';
-const BodyTournament = () => {
+
+const BodyTournament = ({playerchoice}) => {
     return (
         <>
             <div className='Tournament-description'>
@@ -36,14 +37,22 @@ const BodyTournament = () => {
                                     <li> <span>Semi-Final</span>
                                         <ul>
                                             <li> <span><Participants/></span></li>
-                                            <li> <span><Player
-                                            // playerchoice={props.button}
-                                            /></span></li></ul></li>
-                                </ul></li>
+                                            <li> 
+                                                <span>
+                                                    <Player playerchoice={playerchoice} />
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                </li>
                         </ul>
                     </li>
                 </ul>
                 </div>
+            </div>
+            <div className= "button-container">
+                <button className='game-button'>begin next round</button> <button className='refresh-button'></button>
             </div>
         </> 
     )}

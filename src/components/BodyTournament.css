@@ -1,5 +1,5 @@
 .Tournament-description {
-    color: yellow;
+    color: #ffe81f;
     padding-left: 80px;
     display: block;
     margin-bottom: 200px;
@@ -47,14 +47,14 @@ content: '';
 position: absolute;
 top: 0;
 right: 50%;
-border-top: 2px solid yellow;
+border-top: 2px solid #ffe81f;
 width: 51%;
 height: 8px;
 }
 .tree li:after {
     right: auto;
     left: 50%;
-    border-left: 2px solid yellow;
+    border-left: 2px solid #ffe81f;
 }
 .tree li:only-child:after, .tree li:only-child:before
  {
@@ -67,7 +67,7 @@ display: none;
 border: 0 none;
 }
 .tree li:last-child:before{
-border-right: 2px solid yellow;
+border-right: 2px solid #ffe81f;
 border-radius: 0px 5px 0px 0px;
 }
 .tree li:first-child:after{
@@ -78,14 +78,14 @@ border-radius: 0px 5px 0px 0px;
     position:absolute;
     top:0;
     left:50%;
-    border-left:2px solid yellow;
+    border-left:2px solid #ffe81f;
     width: 0;
     height: 20px;
 }
 
 .tree span {
     display: inline-grid;
-    border: 6px solid yellow;
+    border: 6px solid #ffe81f;
     border-radius: 5px;
     color: white;
     padding: 8px;
@@ -95,4 +95,30 @@ border-radius: 0px 5px 0px 0px;
     font-weight: 1500;
     height: 150px;
     width: 100px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.game-button {
+    background-color: #ffe81f;
+    font-family: "fontStarWars";
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: solid 2px black;
+    box-shadow:  1px 1px 8px 1px #ffe81f;
+}
+.refresh-button {
+    background-image: url('/src/assets/img/refreshicon.png');
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    background-color: #ffe81f;
+    border-radius: 20px;
+    position:absolute;
+    right: 220px;
+    
 }
