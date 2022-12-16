@@ -1,6 +1,6 @@
-import "../components/ParticipantsCard.css"
+import "../components/PlayerCard.css"
 
-const ParticipantsCard = (props) => {
+const PlayerCard = (props) => {
     return (
         <div className="card">
           <img src={props.image} alt={props.name}/>
@@ -8,4 +8,4 @@ const ParticipantsCard = (props) => {
         </div>
     )
 }
-export default ParticipantsCard
+export default PlayerCard
