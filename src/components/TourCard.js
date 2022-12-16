@@ -1,4 +1,5 @@
 import './TourCard.css';
+import {Link, redirect, useNavigate } from 'react-router-dom'
 import imageTC1 from '../assets/img/img-tc1.jpg';
 import imageCW1 from '../assets/img/chawin1.jpg';
 import imageR1 from '../assets/img/road1.jpg';
@@ -13,11 +14,14 @@ import son1 from '../assets/R2D2.mp3'
 
 
 
+
 const TourCard = () => {
+const navigate=useNavigate()
     let audio1 = new Audio(son1)
 
   const start = () => {
     audio1.play()
+    navigate("/characterslist")
   }
 
 return (
@@ -41,7 +45,9 @@ return (
                     <p className='Chrono'>PRECEDENT VAINQUEUR
                     <br></br>Chrono : 08:07</p>
                 </div>
-                <button onClick={start}>Participer</button>
+                {/* <Link to ='/CharactersList'> */}
+                    <button onClick={start} className='participate'>Participer</button>
+                    {/* </Link>  */}
             </div>
 
 
@@ -61,7 +67,7 @@ return (
                     <p className='chrono'>PRECEDENT VAINQUEUR
                     <br></br>Chrono : 10:06</p>
                 </div>
-                <button onClick={start}>Participer</button>
+                <button onClick={start} className='participate'>Participer</button>
             </div>
 
 
@@ -81,7 +87,7 @@ return (
                     <p className='chrono'>PRECEDENT VAINQUEUR
                     <br></br>Chrono : 13:06</p>
                 </div>
-                <button onClick={start}>Participer</button>
+                <button onClick={start} className='participate'>Participer</button>
             </div>
 
 
@@ -93,7 +99,7 @@ return (
                     <div className='tourDesc'>DESCRIPTION
                          <br></br>
                          <br></br>
-                         Dethro's Revenge était un parcours de podracing sur Ord Ibanna et la cinquième course du Galactic Podracing Circuit. Dethro Glok a conçu le parcours sans beaucoup de virages serrés (ce qui s'est avéré gênant pour les acrophobes) et a aimé entendre les pilotes crier chaque fois qu'ils tombaient dans le vide gazeux. Les coureurs avec une grande vitesse et des freins décents se sont bien débrouillés avec ce parcours. </div>
+                         Dethro's Revenge était un parcours de podracing sur Ord Ibanna et la cinquième course du Galactic Podracing Circuit. Dethro Glok a conçu le parcours sans beaucoup de virages serrés (ce qui s'est avéré gênant pour les acrophobes) et a aimé entendre les pilotes crier chaque fois qu'ils tombaient dans le vide gazeux. Les coureurs avec une grande vitesse et des freins décents se sont bien débrouillés avec ce parcours. J'avais un soucis avec mon CSS du coup il faut que je rajoute du texte dans cette description pour que ce soit plus harmonieux et harmonisé avec les autres Card... Quoi vous lisez vraiment mes descriptions ? Wow, ça me fait trop plaisir ! C'est vrai que c'est plus simple des lorem ipsum, mais franchement le latin ça me manque moyen-moyen... Trop passé de temps avec Tacite et cie... Mais bon là  n'est pas la question... Vous êtes toujours là ? C'est gentil mais on va pouvoir s'arrêter là j'ai comblé assez d'espace. </div>
                     <img src={imageR4} alt='tracé du circuit' className='racePic'></img>
                     <div className='lastwin'>
                         <div className='picwin'>

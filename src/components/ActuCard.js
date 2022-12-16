@@ -12,7 +12,7 @@ return (
         <div className='Actu'>
             <h3>Accident mortel sur le circuit</h3>
             <img src={imageA1} alt="stormtroppers en légo sur un brancart" className='imgactu'/>
-            <div className='Article1'> On nous annonce que le cousin de Bobba Fett aurait succombé à ses blessures suite à un virage râté lors du circuit de Naboo. D'après nos sources il aurait été déconcentré en voyant apercevant la nouvelle coiffure de la princesse Amidala.</div>
+            <div className='Article1'> On nous annonce que le cousin de Bobba Fett aurait succombé à ses blessures suite à un virage râté lors du circuit de Naboo. D'après nos sources il aurait été déconcentré en apercevant la nouvelle coiffure de la princesse Amidala.</div>
             <p>Date : 10/12/2022</p>
          </div>
          <div className='Actu'>

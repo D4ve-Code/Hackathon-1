@@ -12,6 +12,11 @@
     border-radius: 30px;
     margin: 50px;
     padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .picwin img {
@@ -47,6 +52,7 @@ h1 {
   }
 
   .lastwin {
+   width : 700px ;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 50px;
@@ -61,5 +67,19 @@ font-weight:bolder;
   }
 
 .participate{
-    justify-content: flex-end;
+    color: blue;
+    width: 300px;
+    height: 100px;
+    font-size: 40px;
+    border: solid blue 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "fontStarWars";
+
+}
+
+.participate:hover {
+    transform: translateY(-0.25em);
+    background-color:lightgray;
 }
