@@ -25,8 +25,8 @@ const MenuButton = () => {
                     <Link id="closeBtn" className="close" onClick={() => closeNav()}>x</Link>
                     <ul>
                         <li><Link to ='/TourList'>Tournaments</Link></li>
-                        <li><Link to ='/TourList'>Game</Link></li>
-                        <li><Link to ='/TourList'>Characters</Link></li>
+                        <li><Link to ='/Characters'>Game</Link></li>
+                        <li><Link to ='/Characters'>Characters</Link></li>
                         <li><Link to ='/TourList'>Actual tournament</Link></li>
                     </ul>
                 </div>

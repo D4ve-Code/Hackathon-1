@@ -43,7 +43,6 @@ const handleClickNext = () => {
                 // style={{ width: "300px" }}
                 style={{ borderRadius: "1rem" }}
                 autoPlay
-                onLoadStart={0}
                 // layout="horizontal"
                 src={musicTracks[trackIndex].src}
                 onPlay={(e) => console.log("onPlay")}
