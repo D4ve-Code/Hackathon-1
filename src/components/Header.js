@@ -1,12 +1,34 @@
-import './Header.css';
-
+import './Header.css'
+import MenuButton from './MenuButton'
 
 const Header = () => {
     return (
-        <div className='navbar'>
-            <h1>header goes here</h1>
+        <div className='header'>
+            <div className='headerTitle'>
+            <h1>
+                intergalactic tournaments
+            </h1>
+            </div>
+            <div className='headerButton'>
+            <MenuButton />
+            </div>
         </div>
-    )}
+    )
+}
+export default Header
 
-
-    export default Header;
+const Header = () => {
+    return (
+        <div className='header'>
+            <div className='headerTitle'>
+            <h1>
+                intergalactic tournaments
+            </h1>
+            </div>
+            <div className='headerButton'>
+            <MenuButton />
+            </div>
+        </div>
+    )
+}
+export default Header

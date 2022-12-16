@@ -17,7 +17,7 @@ console.log (props)
     return (
 
      <div className = "List">
-             <h1 className='card-h1'> select your characters </h1>
+             <h1 className ='class-h1'> select your characters </h1>
             
         <div className ="ListCardsHuman">
             {
