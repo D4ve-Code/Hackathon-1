@@ -7,7 +7,7 @@ import imageA4 from '../assets/img/image-A4.jpg';
 
 const ActuCard = () => {
 return (
-    <><h2>En ce moment dans la galaxie</h2>
+    <><h2 className='titleActu'>En ce moment dans la galaxie</h2>
     <div className='BoxArt'>  
         <div className='Actu'>
             <h3>Accident mortel sur le circuit</h3>

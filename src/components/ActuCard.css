@@ -2,7 +2,7 @@
     font-family: "fontStarWars";
     src: url('/src/assets/STJEDISE.TTF');
 }
-h2 {
+.titleActu {
     text-align: center;
     margin-top: 50px;
     font-family: "fontStarWars";

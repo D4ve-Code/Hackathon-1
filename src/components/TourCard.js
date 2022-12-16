@@ -25,7 +25,7 @@ const navigate=useNavigate()
   }
 
 return (
-    <>        <h1>Les tournois de la ligue intergalactique</h1>
+    <>        <h1 className='tourTitle'>Les tournois de la ligue intergalactique</h1>
     <div className='boxCard'>
 
 
