@@ -1,0 +1,43 @@
+@font-face {
+    font-family:"police";
+    src: url('/src/assets/police.TTF');
+}
+
+.class-h1 {
+    font-size: 50px;
+    font-family: "police";
+    text-align: center;
+    color: #FFE81F;
+}
+
+.ListCardsHuman {
+    display : grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 407px 407px;
+    justify-items: center;
+    align-items: center;
+    padding: 1%;
+    margin: 2%;
+
+}
+
+.selectionImage {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #FFE81F;
+
+}
+
+.titre {
+    font-size: large;
+    font-family: "police";
+    color: #FFE81F;
+    text-align: center;
+
+}
+.click {
+    background-color: transparent;
+    border:none;
+}
