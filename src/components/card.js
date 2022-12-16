@@ -9,9 +9,9 @@ const Card =(props) => {
     return (
         <div className="cards">
         
-           <button onClick={Link}><img src={props.image} alt={props.name} onClick={()=>props.setButton(props.id)}/></button>
+           <button className='click'onClick={Link}><img className='selectionImage' src={props.image} alt={props.name} onClick={()=>props.setButton(props.id)}/></button>
            
-          <p>{props.name}</p>
+          <p className='titre'>{props.name}</p>
               
         </div>
     );
