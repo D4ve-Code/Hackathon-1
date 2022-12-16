@@ -1,16 +1,19 @@
+@font-face {
+  font-family: "fontStarWars";
+  src: url('/src/assets/fonts/STJEDISE.TTF');
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "fontStarWars", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./assets/starwars1.jpg) ;
-  background-repeat: no-repeat;
-  background-size:cover;
+    background-image: url("../src/assets/img/pexels-francesco-ungaro-998641.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: "fontStarWars", source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
