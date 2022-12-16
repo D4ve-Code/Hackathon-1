@@ -1,0 +1,8 @@
+.navbar {
+    text-align: center;
+}
+.navbar h1 {
+    margin:0;
+    font-size: 80px;
+    color : yellow;
+}
