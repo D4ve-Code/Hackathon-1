@@ -1,8 +1,13 @@
-.yoda {
+/* .yoda {
     background-size: cover;
     padding-left: 200px;
 }
 
+*/ .homeSound {
+    display: flex;
+    position: absolute;
+    /* z-index: -1; */
+}
 html,
 body {
     width: 100%;
@@ -15,17 +20,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+        background-image: url('../assets/img/pexels-francesco-ungaro-998641.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
 }
 
 .a-long-time-ago {
     /* cosmétique */
     font-size: 32px;
     color: #4bd5ee;
+    display: flex;
+        position: relative;
+        justify-content: center;
     /* Animation */
     /* Apparition et disparition progressive */
     opacity: 0;
-    animation-delay: 1s;
-        animation-duration: 1s;
+    animation-delay: 0.5s;
+        animation-duration: 2.5s;
         animation-name: a-long-time-ago;
         animation-timing-function: ease-out;
 }
@@ -50,16 +62,17 @@ opacity: 0;
     /* centrage de l'élément' */
     position: absolute;
     top: 45%;
-        left: 50%;
-        width: 800px;
-        margin: 0 0 0 -400px;
+        left: 24%;
+            width: 1600px;
         top: auto;
         bottom: 0;
         height: 50em;
         /* cosmétique */
-        color: #ffff66;
+        color: #ffe81f;
         font-size: 64px;
+        display: flex;
         text-align: justify;
+        justify-content: center;
         /* Applique la transformation  */
         transform-origin: center bottom;
         transform: perspective(300px) rotateX(25deg);
@@ -69,7 +82,7 @@ opacity: 0;
     /* l'animation la fait remonter progressivement */
     position: absolute;
     top: 100%;
-        animation-delay: 2s;
+        animation-delay: 3.5s;
         /* Démarre l'animation après la première */
         animation-duration: 20s;
         animation-name: crawl;

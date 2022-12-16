@@ -24,10 +24,10 @@ const MenuButton = () => {
                 <div id="mySidenav" className="sidenav">
                     <Link id="closeBtn" className="close" onClick={() => closeNav()}>x</Link>
                     <ul>
-                        <li><Link to ='/test'>Tournaments</Link></li>
-                        <li><a href="https://developer.mozilla.org/fr/">Schedule</a></li>
-                        <li><Link href="https://developer.mozilla.org/fr/">Characters</Link></li>
-                        <li><Link href="https://developer.mozilla.org/fr/">Contact</Link></li>
+                        <li><Link to ='/TourList'>Tournaments</Link></li>
+                        <li><Link to ='/TourList'>Game</Link></li>
+                        <li><Link to ='/TourList'>Characters</Link></li>
+                        <li><Link to ='/TourList'>Actual tournament</Link></li>
                     </ul>
                 </div>
 

@@ -4,16 +4,19 @@
 }
 
 .header {
-    min-height: 10vh;
+    /* min-height: 10vh; */
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: calc(10px + 2vmin);
 }
 
 .headerButton {
     display: flex;
+    position: absolute;
+    top: 50px;
+    right: 20px;
     justify-content: flex-end;
     padding-right: 50px;
 }
@@ -21,7 +24,7 @@
 .headerTitle {
     display: flex;
     justify-content: center;
-    padding-left: 480px;
+    font-size: 50px;
     color: #ffe81f;
     font-family: "fontStarWars";
 }

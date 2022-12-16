@@ -6,7 +6,7 @@ const Header = () => {
         <div className='header'>
             <div className='headerTitle'>
             <h1>
-                interGalactic Tournaments
+                intergalactic tournaments
             </h1>
             </div>
             <div className='headerButton'>
