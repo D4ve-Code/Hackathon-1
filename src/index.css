@@ -5,15 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-<<<<<<< HEAD
-  background-image: url(./assets/img/background-stars.jpg);
-  background-size: cover;
- 
-=======
   background-image: url(./assets/starwars1.jpg) ;
   background-repeat: no-repeat;
   background-size:cover;
->>>>>>> characters
+
 }
 
 code {

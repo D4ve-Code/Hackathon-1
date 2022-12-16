@@ -2,7 +2,8 @@ import './BodyTournament.css';
 import Participants from './Participants';
 import Player from './Player';
 
-const BodyTournament = ({playerchoice}) => {
+const BodyTournament = ({playerchoice,result}) => {
+    console.log(result)
     return (
         <>
             <div className='Tournament-description'>
@@ -19,22 +20,22 @@ const BodyTournament = ({playerchoice}) => {
                         <ul>
                             <li> <span>Final</span>
                                 <ul>
-                                    <li> <span>Semi-Final</span>
+                                    <li> <span>{result === "true" ?<Participants/>:"Semi-final"}</span>
                                         <ul>
                                             <li> <span><Participants/></span></li>
                                             <li> <span><Participants/></span></li></ul></li>
-                                    <li> <span>Semi-Final</span>
+                                    <li> <span>{result === "true" ?<Participants/>:"Semi-final"}</span>
                                         <ul>
                                             <li> <span><Participants/></span></li>
                                             <li> <span><Participants/></span></li></ul></li>
                                 </ul></li>
                             <li> <span>Final</span>
                                 <ul>
-                                    <li> <span>Semi-Final</span>
+                                    <li> <span> {result === "true" ?<Participants/>:"Semi-final"}</span>
                                         <ul>
                                             <li> <span><Participants/></span></li>
                                             <li> <span><Participants/></span></li></ul></li>
-                                    <li> <span>Semi-Final</span>
+                                    <li> <span id = "semifinal">{result === "true" ?<Player playerchoice={playerchoice} />:"Semi-final"} </span>
                                         <ul>
                                             <li> <span><Participants/></span></li>
                                             <li> 

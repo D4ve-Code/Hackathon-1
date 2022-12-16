@@ -1,27 +1,20 @@
-<<<<<<< HEAD
+import {useState} from "react"
 import { Routes, Route } from 'react-router-dom';
+import CharactersList from './screens/CharactersList';
 import './App.css';
 import Tournament from './screens/Tournament';
 function App() {
-  const idChoise = 2
+  const [button, setButton] = useState();
+  // const idChoise = 2
     return (
     <div className="App">
-      <Tournament
-       playerchoice={idChoise}
-      />
 
-=======
-import CharactersList from './screens/CharactersList';
-import React from 'react';
-
-function App() {
- const [button, setButton] = React.useState();
-console.log(button)
-  return (
-    <div className="App">
-    <CharactersList
-    setButton={setButton}/>
->>>>>>> characters
+      <Routes> 
+        <Route exact path='/CharactersList' element={<CharactersList setButton={setButton}/>}/> 
+        <Route exact path="/gameboard" element={<Tournament playerchoice={button}/> } />
+        <Route path="/gameboard/:result/:id" element={<Tournament playerchoice={button}/> } />
+      </Routes>
+    
     </div>
   );
 }
