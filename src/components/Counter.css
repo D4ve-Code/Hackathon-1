@@ -1,0 +1,14 @@
+.countbox{
+    background-color: lightgray;
+max-width: 564px ;
+padding-bottom: 25px;
+margin-left: 670px;
+justify-content: center;
+border-radius: 0 0 20px 20px;
+
+}
+.countText{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}

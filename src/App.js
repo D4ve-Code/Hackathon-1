@@ -1,9 +1,10 @@
+import './App.css';
+import TourList from './screens/TourList';
+import { Routes, Route } from 'react-router-dom';
 import CharactersList from './screens/CharactersList';
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Home from './screens/Home'
-import './App.css';
-import Header from './components/Header'
+import Home from './screens/Home';
+import Header from './components/Header';
 
 
 function App() {
@@ -11,10 +12,13 @@ function App() {
 console.log(button)
   return (
     <div className="App">
+
     <Routes> 
-    <Route path='/' element={<Home />} /> 
-    <Route exact path='/CharactersList' element={<CharactersList setButton={setButton}/>}/> 
-    <Route path="/gameboard/:result" element={<CharactersList />} />
+      <Route path='/' element={<Home />} /> 
+      <Route  path='/characterslist' element={<CharactersList/>}/>
+      <Route  path='/tourlist' element={<TourList/>}/>
+      <Route exact path='/CharactersList' element={<CharactersList setButton={setButton}/>}/> 
+      <Route path="/gameboard/:result" element={<CharactersList />} />
     </Routes>
     </div>
   );

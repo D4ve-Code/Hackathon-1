@@ -26,7 +26,7 @@ const MenuButton = () => {
                     <ul>
                         <li><Link to ='/TourList'>Tournaments</Link></li>
                         <li><Link to ='/Characters'>Game</Link></li>
-                        <li><Link to ='/Characters'>Characters</Link></li>
+                        <li><Link to ='/CharactersList'>Characters</Link></li>
                         <li><Link to ='/TourList'>Actual tournament</Link></li>
                     </ul>
                 </div>

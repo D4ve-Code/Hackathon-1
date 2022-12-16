@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "fontStarWars";
+    src: url('/src/assets/STJEDISE.TTF');
+}
+.titleActu {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "fontStarWars";
+    color: #FFe81f;
+  }
+  
+.BoxArt {
+    padding: 25px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* justify-content: center;
+    display: inline;
+    flex-direction: row; */
+    /* border-top: solid 20px #FFE81F; */
+  }
+  
+  .Actu {
+
+    margin: 15px;
+    padding: 20px;
+    min-height: 100px;
+    min-width: 200px;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    color: #FFe81f;
+    border: #FFe81f solid 5px;
+  }
+
+  .imgactu{
+    max-height: 350px;
+}
+.Article1, .Article2, .Article3, .Article4 {
+    padding-top: 10px;
+}
+
