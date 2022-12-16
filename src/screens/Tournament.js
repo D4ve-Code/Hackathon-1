@@ -7,7 +7,9 @@ const Tournament = () => {
     return (
         <>
         <Header/>,
-        <BodyTournament/>,
+        <BodyTournament
+        // playerchoice={props.button}
+        />,
         {/* <Footer/> */}
         </>
     )}

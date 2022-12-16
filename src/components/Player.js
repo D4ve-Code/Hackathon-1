@@ -5,7 +5,7 @@ import PlayerCard from "./PlayerCard"
 
 const Player = () => {
     const [participants, setParticipants] = useState ([])
-    let choosecard = Math.floor(Math.random() * 82 + 1);
+    // let choosecard = {playerchoice};
     useEffect (() => {
         fetch("https://miadil.github.io/starwars-api/api/all.json")
         .then ((res) => res.json())
@@ -15,7 +15,8 @@ const Player = () => {
     }, [])
     return (
       
-        participants.filter((participants) => participants.id === choosecard).map (filteredData => (
+        participants.filter((participants) => participants.id ===  1 //choosecard
+         ).map (filteredData => (
           <div>
             <PlayerCard
             name={filteredData.name}

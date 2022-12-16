@@ -1,3 +1,10 @@
 .App {
     
 }
+@font-face {
+    font-family: "fontStarWars";
+    src: url('/src/fonts/hackathon-font.TTF');
+}
+.App {
+    font-family: "fontStarWars"
+}

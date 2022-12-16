@@ -5,7 +5,9 @@ import Tournament from './screens/Tournament';
 function App() {
   return (
     <div className="App">
-     <Tournament/>
+     <Tournament
+    //  playerchoice = {button}
+    />
     </div>
   );
 }
