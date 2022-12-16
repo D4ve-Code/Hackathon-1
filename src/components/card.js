@@ -4,7 +4,7 @@ import '../components/card.css'
 const Card =(props) => {
     let { result } = useParams();   
     let Link = () => {     
-        window.location.href = "http://127.0.0.1:5500/index.html";   
+        window.location.href = `http://127.0.0.1:5500/index.html?id=${props.id}`;   
     };
     return (
         <div className="cards">
