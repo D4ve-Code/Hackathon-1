@@ -6,8 +6,12 @@
 */ .homeSound {
     display: flex;
     position: absolute;
+    opacity: 0.04;
+        top: 10px;
+        left: 20px;
     /* z-index: -1; */
 }
+
 html,
 body {
     width: 100%;
@@ -20,10 +24,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-        background-image: url('../assets/img/pexels-francesco-ungaro-998641.jpg');
+        /* background-image: url('../assets/img/pexels-francesco-ungaro-998641.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             width: 100%;
+                */
 }
 
 .a-long-time-ago {
@@ -84,11 +89,12 @@ opacity: 0;
     top: 100%;
         animation-delay: 3.5s;
         /* Démarre l'animation après la première */
-        animation-duration: 20s;
+        animation-duration: 25s;
         animation-name: crawl;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
     }
+
 @keyframes crawl {
     0% {
         top: 100%;
