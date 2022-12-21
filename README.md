@@ -1,4 +1,4 @@
-1st Hackathon in Project Team - Please go Dev Branch to discover the work - Team is still working on when we have some times
+1st Hackathon in Project Team - Please go Dev Branch to discover the work - Team is still working on when we have free times
 
 # Getting Started with Create React App
 
